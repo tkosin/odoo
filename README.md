@@ -31,3 +31,10 @@ For a standard installation please follow the <a href="https://www.odoo.com/docu
 from the documentation.
 
 Then follow <a href="https://www.odoo.com/documentation/master/tutorials.html">the developer tutorials</a>
+
+For local development
+---------------------
+- Prepare `PostgreSQL` database and credential to use in Odoo
+- Install packages in `requirements.txt` with `pip3`
+- Start Odoo instance with `python odoo-bin`, make sure you have `odoo.conf` in the same directory.
+- Check the logs in terminal and go to `http://localhost:80` 
