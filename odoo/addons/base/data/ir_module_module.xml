@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-
         <record model="ir.module.module" id="base.module_web_studio">
             <field name="name">web_studio</field>
             <field name="shortdesc">Studio</field>
@@ -15,7 +14,6 @@
             <field name="icon">/base/static/img/icons/web_studio.png</field>
             <field name="website">https://odoo.com/page/studio?utm_source=db&amp;utm_medium=module</field>
         </record>
-
         <record model="ir.module.module" id="base.module_timesheet_grid">
             <field name="name">timesheet_grid</field>
             <field name="shortdesc">Timesheets</field>
